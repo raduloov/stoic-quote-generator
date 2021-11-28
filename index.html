@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="share hidden">
+      <p>Quote has been copied and is ready to share!</p>
+      <button id="close" class="btn">
+        <i class="far fa-thumbs-up fa-2x"></i>
+      </button>
+    </div>
+    <div class="container">
+      <h1>Memento Mori</h1>
+      <p>Stoic Quote Generator</p>
+      <div class="box">
+        <div class="quote">
+          <p id="quote">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem et
+            error nostrum ipsa dignissimos voluptatum eveniet, assumenda
+            officiis. Tempora dolorum fugiat id quidem odit, animi at
+            consequuntur impedit eligendi veniam?
+          </p>
+        </div>
+
+        <div class="author">
+          <img
+            id="marcus"
+            class="img hidden"
+            src="img/marcus_aurelius.jpg"
+            alt="Author Image"
+          />
+          <img
+            id="epictetus"
+            class="img hidden"
+            src="img/epictetus.jpg"
+            alt="Author Image"
+          />
+          <img
+            id="seneca"
+            class="img hidden"
+            src="img/seneca.png"
+            alt="Author Image"
+          />
+          <img
+            id="aristotle"
+            class="img hidden"
+            src="img/aristotle.jpg"
+            alt="Author Image"
+          />
+          <img
+            id="confucius"
+            class="img hidden"
+            src="img/confucius.jpg"
+            alt="Author Image"
+          />
+
+          <p id="author">Author</p>
+        </div>
+        <div class="buttons">
+          <button id="generate" class="btn">
+            <i class="fas fa-sync-alt fa-2x"></i>
+          </button>
+          <button id="share" class="btn">
+            <i class="fas fa-share-square fa-2x"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
+</html>
